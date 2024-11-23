@@ -8,7 +8,17 @@
   <component name="ChangeListManager">
     <list default="true" id="64116e5b-dbf0-4bab-9c98-6f3b4becfd1a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vahidya/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vahidya/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Task Tracker/com/vahidya/Main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Task Tracker/com/vahidya/Main$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Task Tracker/com/vahidya/Main$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Task Tracker/com/vahidya/Main$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Task Tracker/com/vahidya/Main$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Task Tracker/com/vahidya/Main$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Task Tracker/com/vahidya/Main$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Task Tracker/com/vahidya/Main$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Task Tracker/com/vahidya/Main$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Task Tracker/com/vahidya/Main$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Task Tracker/com/vahidya/Main$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Task Tracker/com/vahidya/Main$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Task Tracker/com/vahidya/Main$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Task Tracker/com/vahidya/Main$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Task Tracker/com/vahidya/Main$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Task Tracker/com/vahidya/Main$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Task Tracker/com/vahidya/Main$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Task Tracker/com/vahidya/Main$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Task Tracker/com/vahidya/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Task Tracker/com/vahidya/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tasks.json" beforeDir="false" afterPath="$PROJECT_DIR$/tasks.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,6 +51,7 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
@@ -84,8 +95,15 @@
       <updated>1731930034398</updated>
       <workItem from="1731930039464" duration="5862000" />
       <workItem from="1731939250853" duration="29187000" />
-      <workItem from="1732355091784" duration="1539000" />
+      <workItem from="1732355091784" duration="2184000" />
     </task>
+    <task id="LOCAL‎۰۰۰۰۱" summary="add inputConvertToWords method">
+      <created>1732360818572</created>
+      <option name="number" value="LOCAL‎۰۰۰۰۱" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۰۱" />
+      <updated>1732360818572</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,5 +121,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add inputConvertToWords method" />
+    <option name="LAST_COMMIT_MESSAGE" value="add inputConvertToWords method" />
   </component>
 </project>
