@@ -35,19 +35,7 @@ public class Main {
         while (true) {
             System.out.print("task-cli "); // Command prompt
             input = scanner.nextLine().trim();
-            Pattern pattern = Pattern.compile("\"([^\"]*)\"|(\\S+)");
-            Matcher matcher = pattern.matcher(input);
-            // Find matches
-            words = new ArrayList<>();
-            while (matcher.find()) {
-                if (matcher.group(1) != null) {
-                    // Group 1 captures the content inside quotes
-                    words.add(matcher.group(1));
-                } else if (matcher.group(2) != null) {
-                    // Group 2 captures single words
-                    words.add(matcher.group(2));
-                }
-            }
+            words=convertInputToWords(input);
             switch (words.get(0).toLowerCase()) {
                 case "help":
                     if (words.size()>1)
@@ -55,11 +43,13 @@ public class Main {
                     else
                         {
                         System.out.println("Available commands:");
+                        System.out.println("  help   - show your choices");
                         System.out.println("  add   - add a task to list");
                         System.out.println("  delete - delete a task from list");
                         System.out.println("  mark-in-progress  - mark a task as an in-progress task");
                         System.out.println("  mark-done - mark a task as a done task");
                         System.out.println("  List (done of todo or in-progress) - show list of tasks");
+                        System.out.println("  exit - end of program");
                     }
                     break;
 
@@ -295,6 +285,22 @@ public class Main {
                     System.out.println("Unknown command. Type 'help' for available commands.");
             }
         }
+    }
+    private static List<String> convertInputToWords(String input) {
+        Pattern pattern = Pattern.compile("\"([^\"]*)\"|(\\S+)");
+        Matcher matcher = pattern.matcher(input);
+        // Find matches
+        List<String> words = new ArrayList<>();
+        while (matcher.find()) {
+            if (matcher.group(1) != null) {
+                // Group 1 captures the content inside quotes
+                words.add(matcher.group(1));
+            } else if (matcher.group(2) != null) {
+                // Group 2 captures single words
+                words.add(matcher.group(2));
+            }
+        }
+        return words;
     }
 }
 
